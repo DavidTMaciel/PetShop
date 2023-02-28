@@ -1,0 +1,119 @@
+@media (min-width: 320px) and (max-width:490px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .card-contato h4 {
+        font-size: 15px;
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        border-bottom: 3px solid #ed5887;
+
+
+    }
+
+    .card-contato {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .card-contato img {
+        width: 20px;
+        padding-right: 5px;
+
+    }
+}
+
+@media (min-width: 724px) and (max-width:900px) {
+
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-contato h4 {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Righteous', cursive;
+    }
+
+    .card-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        width: calc(100% / 3);
+        margin-right: 50px;
+    }
+
+    .card-contato img {
+        width: 30px;
+        padding-right: 10px;
+
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+
+    }
+
+    .informacoes img {
+        display: flex;
+        width: 30px;
+    }
+
+    .card-contato {
+        width: calc(100%/3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+
+    }
+
+    .card-contato p {
+        width: calc(100% / 3);
+    }
+
+    .informacoes {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+.card-contato h4 {
+    font-family: 'Anton', sans-serif;
+}
+
+
+footer {
+    padding: 10px 0;
+    border-top: 5px solid #ed5887;
+
+
+
+}
+
+.card-contato p {
+    font-weight: 900;
+
+}
