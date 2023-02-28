@@ -18,3 +18,6 @@
 <li>Keyframes</li>
 
 </ul>
+
+### Sobre
+<p>Projeto responsivo atravez do Media Queries, compativel com celulares, tablet, notebook e telas maiores, interatividade do usuario com State Hook.<p>
