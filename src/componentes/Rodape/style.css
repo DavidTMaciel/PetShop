@@ -29,6 +29,10 @@
         padding-right: 5px;
 
     }
+        .informacoes{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 724px) and (max-width:900px) {
